@@ -25,7 +25,7 @@ O figma da aplicação (selecione no canto superior esquerdo  `Pages -> Principa
 
 Está com dúvidas (ou curioso 👀) para ver como deve ficar a aplicação ao final do desafio? Deixamos abaixo um vídeo mostrando as principais funcionalidades que você deve implementar para te ajudar (ou matar sua curiosidade 👀).
 
-![https://s3.us-west-2.amazonaws.com/secure.notion-static.com/53f93860-3195-4519-9986-98321622bbdb/todo.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211229%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211229T212746Z&X-Amz-Expires=86400&X-Amz-Signature=5e4e46fd4aaf24fd7151ecfa79e1dfe7d48d4e28d7f8b22f4d69d44a4e67a7ed&X-Amz-SignedHeaders=host&x-id=GetObject](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/53f93860-3195-4519-9986-98321622bbdb/todo.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211229%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211229T212746Z&X-Amz-Expires=86400&X-Amz-Signature=5e4e46fd4aaf24fd7151ecfa79e1dfe7d48d4e28d7f8b22f4d69d44a4e67a7ed&X-Amz-SignedHeaders=host&x-id=GetObject)
+![fid](/src/assets/todo.gif)
 
 ## O que devo editar na aplicação?
 
