@@ -3,7 +3,6 @@ import {
   Image,
   TouchableOpacity,
   View,
-  Text,
   StyleSheet,
   TextInput,
 } from "react-native";
@@ -77,7 +76,10 @@ export function TaskItem({
 
           <TextInput
             ref={textInputRef}
-            style={item.done ? styles.taskTextDone : styles.taskText}
+            style={[
+              { paddingVertical: 1 },
+              item.done ? styles.taskTextDone : styles.taskText,
+            ]}
             value={taskTitle}
             editable={isEditing}
             onChangeText={setTaskTitle}
