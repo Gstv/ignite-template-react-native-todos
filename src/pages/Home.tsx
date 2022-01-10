@@ -15,11 +15,10 @@ export function Home() {
     );
 
     if (sameTaskFound !== undefined) {
-      warningAlert(
+      return warningAlert(
         "Task já cadastrada",
         "Você não pode cadastrar uma task com o mesmo nome"
       );
-      return;
     }
 
     const newTask = {
