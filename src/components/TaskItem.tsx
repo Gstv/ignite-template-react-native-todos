@@ -32,22 +32,22 @@ export function TaskItem({
   editTask,
   removeTask,
 }: TasksListProps) {
-  const [isEditing, setisEditing] = useState(false);
+  const [isEditing, setIsEditing] = useState(false);
   const [taskTitle, setTaskTitle] = useState(item.title);
   const textInputRef = useRef<TextInput>(null);
 
   function handleStartEditing() {
-    setisEditing(true);
+    setIsEditing(true);
   }
 
   function handleCancelEditing() {
     setTaskTitle(item.title);
-    setisEditing(false);
+    setIsEditing(false);
   }
 
   function handleSubmitEditing() {
     editTask(item.id, taskTitle);
-    setisEditing(false);
+    setIsEditing(false);
   }
 
   useEffect(() => {
